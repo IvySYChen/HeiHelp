@@ -23,7 +23,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ### Team Intro
 
-<img src="Image/team_image.png" title="teamimage" width="400" height="250">
+<img src="Image/team_image.png" title="teamimage" width="460" height="280">
 
 ### Presentation Slides
 
