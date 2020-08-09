@@ -32,6 +32,10 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
     UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
     and sql database interaction...
     
+#### Zhuofei Dai - Computer Engineering 
+    Mainly contributed to coding map using Google Maps JavaScript API
+    and sql database interaction
+    
 ### Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
