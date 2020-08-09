@@ -41,6 +41,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 ### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
         
+### Keyang Mei - 
 # Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
