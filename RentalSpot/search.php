@@ -70,6 +70,7 @@
                 $house['pagenum'] = floor($i/6);
                 $house['index'] = $i;
                 $house['name'] = $row['name'];
+		$house['email'] = $row['email'];
                 array_push($text, $house);
                 $pagehouse = array();
                 $pagehouse['name']=$row['name'];
