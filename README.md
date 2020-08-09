@@ -27,7 +27,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ## Team Individual Members Intro
 
-#### Yingqi Chen - Electrical Engineering 
+### Yingqi Chen - Electrical Engineering 
 * Mainly contributed to coding the basic HTML web page structure, 
   UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
   and sql database interaction...
@@ -36,10 +36,10 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 *"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end."*
 
-## Zhuofei Dai - Computer Engineering
+### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
         
-### Presentation Slides
+# Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
 (OR: https://bit.ly/3kv4iOv)
