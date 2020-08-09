@@ -1,8 +1,8 @@
-# 配置环境
+# How to configure
 
 ## php
-* 下载并运行xmapp
-* 进入xampp/htdocs，`git clone https://github.com/IvySYChen/heihei.git`
+* Download and run xmapp
+* Enter xampp/htdocs，`git clone https://github.com/IvySYChen/heihei.git`
 * 从control panel打开Apache的config - httpd.conf
 * 找到DocumentRoot "/xampp/htdocs"，更改为DocumentRoot "/xampp/htdocs/heihei/RentalSpot"
 * 找到DirectoryIndex那行，加入Homepage.html，放在第一个位置
