@@ -36,6 +36,9 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
     Mainly contributed to coding map using Google Maps JavaScript API,
     some UI implementation (CSS and HTML) and data collection...
     
+#### Shiyao Chen - Math and Computational science
+    collected data, designed database and clean raw data using python and sqlite3
+    
 ### Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
