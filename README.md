@@ -36,12 +36,17 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
   
 *"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!)"*
 
-*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end."*
+*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end. Great work, friends!"*
 
 ### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
         
-### Keyang Mei - 
+### Keyang Mei - Acturial & Financial Math
+*
+
+*"This is my first online Hackathon and I am so grateful that I get to do this with my awesome friends Yingqi, Zhuofei, and Shiyao🥰. I am really happy that the knowledge I just learned about database design and contribute to our project (Thank you Jane for teaching me that!) I also get to help with the UI for a little bit.
+Although we encountered some problems, we were able to find the solutions at the end. Again! My teammates are the best teammates in the world!!!"
+
 # Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
