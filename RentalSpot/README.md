@@ -11,7 +11,7 @@
 * Open xampp/php/php
 * Find `extension=sqlite3`, Remove `;`
 
-# 访问网站
+# View the website
 
-* 从control panel Start Apache
-* 在浏览器访问localhost
+* from control panel Start Apache
+* Enter `localhost` in the browser
