@@ -3,19 +3,22 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 # Instruction
 ## How to access our website!
-How to configure
-php
-Download and run xmapp
 
-Enter xampp/htdocs，git clone https://github.com/IvySYChen/heihei.git
+### How to configure
 
-From control panel open Apache -> config - httpd.conf
+#### php
+* Download and run xmapp
+* Enter xampp/htdocs, `git clone https://github.com/IvySYChen/heihei.git`
+* From control panel open Apache的config - httpd.conf
+* Find `DocumentRoot "/xampp/htdocs"`, change it to `DocumentRoot "/xampp/htdocs/heihei/RentalSpot"`
+* Find `DirectoryIndex`, Add `Homepage.html`, put it in the first entry
 
-DocumentRoot "/xampp/htdocs"，更改为DocumentRoot "/xampp/htdocs/heihelp/RentalSpot"
-找到DirectoryIndex那行，加入Homepage.html，放在第一个位置
-Sqlite3
-打开xampp/php/php
-找到extension=sqlite3，把前面的;去掉
-访问网站
-从control panel Start Apache
-在浏览器访问localhost
+###### Sqlite3
+* Open xampp/php/php
+* Find `extension=sqlite3`, Remove `;`
+
+#### View the website
+
+* from control panel Start Apache
+* Enter `localhost` in the browser
+
