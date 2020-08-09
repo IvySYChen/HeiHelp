@@ -28,7 +28,7 @@ Format: ![Our Cute Team Members](url)
 
 ### Presentation Slides
 
-https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2
-https://bit.ly/3kv4iOv - Have a look at our presentation slides!
-[Present](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2
-https://bit.ly/3kv4iOv)
+https://bit.ly/3kv4iOv
+- Have a look at our presentation slides!
+
+[Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
