@@ -34,7 +34,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
     
 #### Zhuofei Dai - Computer Engineering 
     Mainly contributed to coding map using Google Maps JavaScript API
-    and sql database interaction
+    and sql database interaction...
     
 ### Presentation Slides
 
