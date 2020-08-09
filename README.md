@@ -25,6 +25,10 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 <img src="Image/team_image.png" title="teamimage" width="480" height="280">
 
+<p align="center">
+  <img src="Image/team_image.png" />
+</p>
+
 ## Team Individual Members Intro
 
 ### Yingqi Chen - Electrical Engineering 
