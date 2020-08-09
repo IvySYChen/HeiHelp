@@ -28,17 +28,11 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 ## Team Individual Members Intro
 
 #### Yingqi Chen - Electrical Engineering 
-    Mainly contributed to coding the basic HTML web page structure, 
-    UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
-    and sql database interaction...
-    
-#### Zhuofei Dai - Computer Engineering 
-    Mainly contributed to coding map using Google Maps JavaScript API,
-    some UI implementation (CSS and HTML) and data collection...
-    
-#### Shiyao Chen - Math and Computational science
-    Collected data, designed database and clean raw data using python and sqlite3
-    
+    <div class="block" style="border-radius:5px;font-size:14px; position: absolute; background-color: #f9f9f9; min-width: 180px; text-align:left; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);padding: 12px 16px;">
+        Mainly contributed to coding the basic HTML web page structure, 
+        UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
+        and sql database interaction...
+    </div>
 ### Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
@@ -47,4 +41,5 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 - Have a look at our presentation slides! Also feel free to watch our demo video from link below!
 
 [Demo Video](https://drive.google.com/file/d/1tXHp89IRK2K5qBDxNXhg4i_Wb_Fafnao/view)
+
 
