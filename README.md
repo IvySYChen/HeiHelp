@@ -28,11 +28,13 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 ## Team Individual Members Intro
 
 #### Yingqi Chen - Electrical Engineering 
-    <div class="block" style="border-radius:5px;font-size:14px; position: absolute; background-color: #f9f9f9; min-width: 180px; text-align:left; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);padding: 12px 16px;">
-        Mainly contributed to coding the basic HTML web page structure, 
-        UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
-        and sql database interaction...
-    </div>
+* Mainly contributed to coding the basic HTML web page structure, 
+  UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
+  and sql database interaction...
+  
+*"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!)"
+*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end."
+        
 ### Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
