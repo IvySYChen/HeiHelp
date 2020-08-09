@@ -27,7 +27,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ### Presentation Slides
 
-https://bit.ly/3kv4iOv
+[Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)(OR: https://bit.ly/3kv4iOv)
 - Have a look at our presentation slides!
 
-[Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
+
