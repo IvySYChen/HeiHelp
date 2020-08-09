@@ -20,11 +20,5 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 * From control panel Start Apache
 * Enter `localhost` in the browser
 
-<div
- class="canva-embed"
- data-design-id="DAEDhItiD6U"
- data-height-ratio="0.5625"
- style="padding:56.2500% 5px 5px 5px;background:rgba(0,0,0,0.03);border-radius:8px;"
-></div>
-<script async src="https:&#x2F;&#x2F;sdk.canva.com&#x2F;v1&#x2F;embed.js"></script>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEDhItiD6U&#x2F;view?utm_content=DAEDhItiD6U&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Rental Spot Pitch</a> by Keyang Mei (梅可扬)
+
+### Team Intro
