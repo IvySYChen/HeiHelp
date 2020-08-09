@@ -23,7 +23,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ### Team Intro
 
-![GitHub Logo](Image/team_image.png)
+![GitHub Logo](Image/team_image.png=250x250)
 Format: ![Our Cute Team Members](url)
 
 ### Presentation Slides
