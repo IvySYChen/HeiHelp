@@ -21,11 +21,11 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 * Enter `localhost` in the browser
 
 
-### Team Intro
+## Team Intro
 
 <img src="Image/team_image.png" title="teamimage" width="400" height="250">
 
-### Presentation Slides
+## Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
 (OR: https://bit.ly/3kv4iOv)
