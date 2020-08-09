@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lacquer|Oxanium|Trade+Winds&display=swap"
+		rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="description" content="Sublet for Student">
+	<meta name="keywords" content="Student Sublet">
+	<meta name="author" content="Group Hei">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1, user-scalable=yes">
+
+	<!-- title -->
+	<title>
+		Rental Spot - A Sublet Website for All Students!
+	</title>
+
+	<!-- css -->
+	<link rel="stylesheet" href="CSS\stylesheet1.css" type="text/css" media="screen,projection">
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+	<link href="CSS\nouislider.css" type="text/css" rel="stylesheet">
+	<link href='https://fonts.google.com/specimen/Roboto' rel='stylesheet' type='text/css' />
+	<link href='https://forms.gle/znEopUMbZT6dpkRs8' rel='stylesheet' type='text/css' />
+	<!--javascripts-->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+	<!--datepicker-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+	<!--price range-->
+	<script src="Javascripts\nouislider.js"></script>
+
+	<!--marker cluster-->
+	<script src="Javascripts/markerclusterer.js"></script>
+
+	<!--page-->
+	<script src="Javascripts/changepage.js"></script>
+
+	<!--map-->
+	<script type="text/javascript" src="Javascripts\map.js"></script>
+	<script defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+</head>
+
+<body>
+	<!--loading-->
+
+	<div class="loader"><img src='Image\pageLoader.gif' alt="Loading..."></div>
+
+	<script type="text/javascript">
+
+		$(window).load(function () {
+			$(".loader").fadeOut("slow");
+		});
+	</script>
+
+	<!-- container -->
+	<div id="container">
+
+		<!-- header -->
+		<div id="header">
+			<div class="SearchMenu">
+				<ul id="nav" class="clearfix">
+					<form method="post" id="searchengine">
+					<li>
+						<img src="Image\RentalSpot.png" alt="Rental Spot Logo" id="Logo" width="50px"
+							height="50px"></img>
+					</li>
+
+					<li>
+						<div class="Title">
+							Rental Spot
+						</div>
+					</li>
+
+					<li>
+						<!--search engine-->
+						<div class="search-container">
+								<select id="keysearch" name="keysearch">
+									<option value="0" selected>Select Your School...</option>
+									<option value="UTSU">University of Toronto, St. George - Toronto, ON</option>
+									<option value="RU"> Ryerson University - Toronto, ON</option>
+								</select>
+								<button type="submit" id="submit"><i class="fa fa-search"></i></button>
+						</div>
+					</li>
+
+					<li>
+						<div class="dropdown">
+							<div class="dropbtn">
+								$ <input type="number" id="LP" name="lp" value="500" step="50"> - $ <input type="number" id="MP" name="mp"
+									value="2000" step="50">
+							</div>
+							<div class="dropdown-content" id="sliderbox">
+								<div id="slider"></div>
+							</div>
+						</div>
+						<script type="text/javascript">
+							var slider = document.getElementById('slider');
+
+							noUiSlider.create(slider, {
+								start: [500, 2000],
+								connect: true,
+								range: {
+									'min': 0,
+									'max': 3000
+								},
+								step: 50,
+								pips: {
+									mode: 'values',
+									values: [0, 500, 1000, 1500, 2000, 2500, 3000],
+									density: 300
+								}
+							});
+							var LP = document.getElementById('LP');
+							var MP = document.getElementById('MP');
+							slider.noUiSlider.on('update', function (values, handle) {
+
+								var value = values[handle];
+
+								if (handle) {
+
+									MP.value = Math.round(value);
+								} else {
+									LP.value = Math.round(value);
+								}
+							});
+
+							LP.addEventListener('change', function () {
+								slider.noUiSlider.set([this.value, null]);
+							});
+							MP.addEventListener('change', function () {
+								slider.noUiSlider.set([null, this.value]);
+							});
+						</script>
+					</li>
+
+					<li>
+						<div class="dropdown">
+							<div class="datepicker">
+								<i class="fa fa-calendar"></i>&nbsp;
+								<input type="text" name="daterange" id="daterange" value="08/01/2020 - 08/30/2020" />
+								<script>
+									$(function () {
+										$('input[name="daterange"]').daterangepicker({
+											opens: 'left'
+										}, function (start, end, label) {
+											console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+										});
+									});
+								</script>
+							</div>
+
+						</div>
+					</li>
+
+
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">
+								Facility
+							</button>
+							<div class="dropdown-content">
+								<input type="hidden" name="AC" value=""/>
+								<input type="checkbox" name="AC" value="1"> Air Conditioning <br>
+								<input type="hidden" name="Parking" value=""/>
+								<input type="checkbox" name="Parking" value="1"> Parking<br>
+								<input type="hidden" name="LF" value=""/>
+								<input type="checkbox" name="LF" value="1"> Laundry Facilities<br>
+								<input type="hidden" name="Furnished" value=""/>
+								<input type="checkbox" name="Furnished" value="1"> Furnished<br>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="dropdown">
+							<button class="dropbtn">
+								Type
+							</button>
+							<div class="dropdown-content">
+								<input type="hidden" name="Apartment" value="none"/>
+								<input type="checkbox" name="Apartment" value="Apartment" checked> Apartment<br>
+								<input type="hidden" name="House" value="none"/>
+								<input type="checkbox" name="House" value="House" checked> House <br>
+								<input type="hidden" name="Other" value="none"/>
+								<input type="checkbox" name="Other" value="Other" checked> Other <br>
+							</div>
+						</div>
+					</li>
+
+					
+				</form>
+
+				</ul>
+			</div>
+		</div>
+		<!--/header-->
+
+		<!-- body -->
+		<div id="body" class="clearfix">
+			<!-- main -->
+			<div class="main">
+				<div class="main-inner">
+
+							<h2>Welcome!</h2>
+							<p id="up">Searching for an apartment 🏢or house 🏠 near your school?<br>
+								<br>
+								Let Rental Spot help you!
+								<br> 
+								Rental Spot offers interative map with all your student houesing options. Time to find a home away from home by just selecting your school! </p>
+							<p id="lef">
+								Developed by <br>
+								with ❤️ 
+							</p>
+							<div id="mid">
+									<img src="Image/Logo_Heihelp/logo.png" id="midd" width="100%"/>
+							</div>
+							<p id="rig"><br><br>From Aurora, Edmonton, Hamilton & Toronto</p>
+							<p id="last">Click the button on the right to submit your listing!</p>
+							<a href="https://forms.gle/znEopUMbZT6dpkRs8" title="Click to register your house!!">
+							<svg id="uparrow" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" d="M8 3.5a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5z"/>
+								<path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8 3.707 5.354 6.354a.5.5 0 1 1-.708-.708l3-3z"/>
+							</svg>
+							</a>
+				</div>
+			</div>
+			<!--main-->
+
+			<!--/side-->
+            <div class="MapArea">
+                <div id="map"></div>
+            </div>
+			<!--/side-->
+
+
+		</div>
+		<!--body-->
+
+	</div>
+	<!--/container-->
+
+	<!-- footer -->
+	<div id="footer">
+		<div id="footerleft"> &copy; 2020 Rental Spot, Inc. All rights reserved.</div>
+		<div id="footerright"></div>
+		<!--Automatically overwrites the time for latest refresh-->
+	</div>
+	<!--/footer-->
+
+
+	<!--javascript-->
+	<script type="text/javascript" src="Javascripts\searchbar.js"></script>
+
+
+	<!--php-->
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#searchengine").submit(function (e) {
+				//prevent the default form submit
+				e.preventDefault();
+				if($('#keysearch').val()=='0'){
+					alert("Please select a school!")
+				}
+				else{
+				console.log("Executed the sendSearch function");
+				var $form = $(this);
+
+				// select and cache all the fields
+				var $inputs = $form.find("input, select, button, textarea");
+
+				// Serialize the data in the form
+				var serializedData = $form.serialize();
+
+				// disable the inputs for the duration of the Ajax request.
+				// Note: we disable elements AFTER the form data has been serialized.
+				// Disabled form elements will not be serialized.
+				$inputs.prop("disabled", true);
+				{
+					$.ajax({
+						type: "POST",
+						url: "search.php",
+						data: serializedData,
+						dataType: "html", //return value format
+						success: function (html) {
+							// all[0] for map
+							// all[1] for house card
+							console.log("Success");
+							all = JSON.parse(html);
+							if(all[4]!='0'){
+								$inputs.prop("disabled", false);
+								$('.main').html("<div class='main-inner'><div class='HousingList'>"+all[1][0]+"</div>");
+								PageButton(all[1][1],all[2]);
+								// $('#footerright').html('Last Updated: '+all[3]);
+								updateMap(all[0], all[3]);
+							}
+							else{
+								alert("Search result: 0.");
+							}
+						}, //success
+						error: function (xhr, status, error) {
+							var err = eval("(" + xhr.responseText + ")");
+							alert(err.Message);
+							$inputs.prop("disabled", false);
+						}
+					})
+
+				}
+			}
+			})
+		})//document ready
+
+	</script>
+
+</body>
+
+</html>
+
+<!--function asdfsdf(pagetotal, pageindex, array, index){
+	            $('#pagebutton').val(pageindex);
+	            changepage(pageindex,array);
+	            if($('#pagebutton').val()==pagetotal){
+	                pagedownhover1();
+	            }
+	            else{
+	                pagedownhover2();
+	            }
+	            if($('#pagebutton').val()==1){
+	                pageuphover1();
+	            }
+	            else{
+	                pageuphover2();
+	            }
+	            var listnum = (index-1) % pageindex;
+	            $('html, body').animate({
+	              	scrollTop: $("#li3").offset().top
+	             	 $('#pagebutton).css("background", "#f2faf8");
+	              	setTimeout(function(){
+	                    $('#pagebutton).css("background", "white");
+	             	 }, 200);
+	            }, 1000);
+}-->
