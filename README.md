@@ -4,6 +4,8 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 # Instruction
 ## How to configure and access our website!
 
+This is for Windows 10
+
 ### php
 * Download and run xmapp
 * Enter xampp/htdocs, `git clone https://github.com/IvySYChen/HeiHelp.git`
