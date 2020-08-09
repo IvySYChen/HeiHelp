@@ -37,7 +37,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
     some UI implementation (CSS and HTML) and data collection...
     
 #### Shiyao Chen - Math and Computational science
-    collected data, designed database and clean raw data using python and sqlite3
+    Collected data, designed database and clean raw data using python and sqlite3
     
 ### Presentation Slides
 
