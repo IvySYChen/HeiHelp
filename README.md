@@ -21,10 +21,17 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 * Enter `localhost` in the browser
 
 
-### Team Intro
+# Team Intro
 
 <img src="Image/team_image.png" title="teamimage" width="480" height="280">
 
+## Team Individual Members Intro
+
+#### Yingqi Chen - Electrical Engineering 
+    Mainly contributed to coding the basic HTML web page structure, 
+    UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
+    and sql database interaction...
+    
 ### Presentation Slides
 
 [Presentation](https://www.canva.com/design/DAEDhItiD6U/R65MPDLtxYgViAdzMACU5Q/view?website#2)
