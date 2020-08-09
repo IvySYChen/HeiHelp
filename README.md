@@ -17,6 +17,5 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ### View the website
 
-* from control panel Start Apache
+* From control panel Start Apache
 * Enter `localhost` in the browser
-
