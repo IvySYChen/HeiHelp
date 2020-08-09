@@ -41,7 +41,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 ### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
         
-### Keyang Mei - Acturial & Financial Math
+### Keyang Mei - Actuarial & Financial Math
 *
 
 *"This is my first online Hackathon and I am so grateful that I get to do this with my awesome friends Yingqi, Zhuofei, and Shiyao🥰. I am really happy that the knowledge I just learned about database design and contribute to our project (Thank you Jane for teaching me that!) I also get to help with the UI for a little bit.
