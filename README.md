@@ -32,8 +32,9 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
   UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
   and sql database interaction...
   
-*"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!)"
-*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end."
+*"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!)"*
+
+*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end."*
         
 ### Presentation Slides
 
