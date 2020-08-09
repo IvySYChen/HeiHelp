@@ -6,7 +6,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 
 ### php
 * Download and run xmapp
-* Enter xampp/htdocs, `git clone https://github.com/IvySYChen/heihei.git`
+* Enter xampp/htdocs, `git clone https://github.com/IvySYChen/HeiHelp.git`
 * From control panel open Apache的config - httpd.conf
 * Find `DocumentRoot "/xampp/htdocs"`, change it to `DocumentRoot "/xampp/htdocs/heihei/RentalSpot"`
 * Find `DirectoryIndex`, Add `Homepage.html`, put it in the first entry
