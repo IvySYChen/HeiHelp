@@ -41,7 +41,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 ### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
 
-*"I have never participated in a Hackathon before and I really appreciate the chance to get involved! It was great fun trying to put the pieces together. I was not familiar with Javascript, so I learned it along the way. My teammates created beautiful website, cute UI assets and well prepared data sets, which the map part heavily depends on. They were so patient, organized and efficient. My teammates are great (∩_∩) "*
+*"I have never participated in a Hackathon before and I really appreciate the chance to get involved in this web development project! It was great fun trying to put the pieces together. I was not familiar with Javascript, so I learned it along the way. My teammates created beautiful website, cute UI assets and well prepared data sets, which the map part heavily depends on. They were so patient, organized and efficient. My teammates are great (∩_∩) "*
         
 ### Keyang Mei - Actuarial & Financial Math
 *
@@ -57,7 +57,7 @@ Although we encountered some problems, we were able to find the solutions at the
 - Have a look at our presentation slides! Also feel free to watch our demo video from link below!
 
 [Demo Video](https://drive.google.com/file/d/1tXHp89IRK2K5qBDxNXhg4i_Wb_Fafnao/view)
-
+[Complete Demo Video Without Speaker](https://drive.google.com/file/d/1dIceOcGUcOBb1RFecFh6QlCfYbUzO2E7/view)
 # Pictures
 <p align="center">
   <img src="Screenshot/Cover.png"/>
