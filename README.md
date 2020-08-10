@@ -56,4 +56,16 @@ Although we encountered some problems, we were able to find the solutions at the
 
 [Demo Video](https://drive.google.com/file/d/1tXHp89IRK2K5qBDxNXhg4i_Wb_Fafnao/view)
 
-
+# Pictures
+<p align="center">
+  <img src="Screenshot/Cover.png" width="720" height="420"/>
+</p>
+<p align="center">
+  <img src="Screenshot/Default.png" width="720" height="420"/>
+</p>
+<p align="center">
+  <img src="Screenshot/Price.png" width="720" height="420"/>
+</p>
+<p align="center">
+  <img src="Screenshot/Distance.png" width="720" height="420"/>
+</p>
