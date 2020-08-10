@@ -57,7 +57,9 @@ Although we encountered some problems, we were able to find the solutions at the
 - Have a look at our presentation slides! Also feel free to watch our demo video from link below!
 
 [Demo Video](https://drive.google.com/file/d/1tXHp89IRK2K5qBDxNXhg4i_Wb_Fafnao/view)
+
 [Complete Demo Video Without Speaker](https://drive.google.com/file/d/1dIceOcGUcOBb1RFecFh6QlCfYbUzO2E7/view)
+
 # Pictures
 <p align="center">
   <img src="Screenshot/Cover.png"/>
