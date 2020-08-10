@@ -58,7 +58,7 @@ Although we encountered some problems, we were able to find the solutions at the
 
 # Pictures
 <p align="center">
-  <img src="Screenshot/Cover.png" width="720" height="420"/>
+  <img src="Screenshot/Cover.png"/>
 </p>
 <p align="center">
   <img src="Screenshot/Default.png" width="720" height="420"/>
