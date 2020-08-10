@@ -47,7 +47,7 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
 *This is also my first Hackathon and it will be one of the best and unforgettable experiences in my life. Until now, I still can’t believe that we actually built the cool website in 48 hours. I am glad that I am in such a wonderful team and working with such amazing people. Thank you Keyang for inviting me to join the Hackathon and giving me the opportunity to work on the cool project! Even though I just get to know Yingqi, Zhuofei, I feel that we have known for a long time! Love you all!!!!*
 
 ### Keyang Mei - Actuarial & Financial Math
-*Database design, data cleaning using python, UI design using Adobe Illustrator and Figma
+* Database design, data cleaning using python, UI design using Adobe Illustrator and Figma
 
 *"This is my first online Hackathon and I am so grateful that I get to do this with my awesome friends Yingqi, Zhuofei, and Shiyao🥰. I am really happy that the knowledge I just learned about database design and contribute to our project (Thank you Jane for teaching me that!) I also get to help with the UI for a little bit.
 Although we encountered some problems, we were able to find the solutions at the end. Again! My teammates are the best teammates in the world!!!"*
