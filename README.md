@@ -34,20 +34,24 @@ In this Repo, we create a website called Rental Spot. Rental Spot is an apartmen
   UI design and implementation (CSS and jQuery/Javascript), PHP(Ajax) 
   and sql database interaction...
   
-*"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!)"*
-
-*"I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end. Great work, friends!"*
+*"This is my first time joining hackathon but I did enjoy it to the fullest. It was totally worth it though I felt a bit stressful at first that I was charged to do coding that is relevant to courses I just completed this summer. (I am so happy what I learned finally got to take apart in practice!) I really appreciate Keyang, who invited me in the first place to this exciting competition, as well as our two other cute and skillful team members Zhuofei and Shiyao with whom I fought together to accomplish our project goal. Though last minute before submission could not be more dramatic,(as we really rushed into the last moment to submit our project work)  all turned out to be perfect in the end. Great work, friends!"*
 
 ### Zhuofei Dai - Computer Engineering
 * Mainly contributed to coding the map interaction (Javascript, HTML and CSS) and data collection (Python)
 
 *"I have never participated in a Hackathon before and I really appreciate the chance to get involved! It was great fun trying to put the pieces together. I was not familiar with Javascript, so I learned it along the way. My teammates created beautiful website, cute UI assets and well prepared data sets, which the map part heavily depends on. They are so efficient, organized and patient. My teammates are great (∩_∩) "*
         
+### Shiyao Chen - Computer Science & Math
+* Mainly contributed to collecting data, designing database and cleaning raw data using python and sqlite3
+
+*This is also my first Hackathon and it will be one of the best and unforgettable experiences in my life. Until now, I still can’t believe that we actually built the cool website in 48 hours. I am glad that I am in such a wonderful team and working with such amazing people. Thank you Keyang for inviting me to join the Hackathon and giving me the opportunity to work on the cool project! Even though I just get to know Yingqi, Zhuofei, I feel that we have known for a long time! Love you all!!!!*
+
 ### Keyang Mei - Actuarial & Financial Math
 *
 
 *"This is my first online Hackathon and I am so grateful that I get to do this with my awesome friends Yingqi, Zhuofei, and Shiyao🥰. I am really happy that the knowledge I just learned about database design and contribute to our project (Thank you Jane for teaching me that!) I also get to help with the UI for a little bit.
 Although we encountered some problems, we were able to find the solutions at the end. Again! My teammates are the best teammates in the world!!!"*
+
 
 # Presentation Slides
 
