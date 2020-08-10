@@ -61,11 +61,11 @@ Although we encountered some problems, we were able to find the solutions at the
   <img src="Screenshot/Cover.png"/>
 </p>
 <p align="center">
-  <img src="Screenshot/Default.png" width="720" height="420"/>
+  <img src="Screenshot/Default.png"/>
 </p>
 <p align="center">
-  <img src="Screenshot/Price.png" width="720" height="420"/>
+  <img src="Screenshot/Price.png"/>
 </p>
 <p align="center">
-  <img src="Screenshot/Distance.png" width="720" height="420"/>
+  <img src="Screenshot/Distance.png"/>
 </p>
