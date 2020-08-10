@@ -69,3 +69,9 @@ Although we encountered some problems, we were able to find the solutions at the
 <p align="center">
   <img src="Screenshot/Distance.png"/>
 </p>
+<p align="center">
+  <img src="Screenshot/Page.png"/>
+</p>
+<p align="center">
+  <img src="Screenshot/Popup.png"/>
+</p>
